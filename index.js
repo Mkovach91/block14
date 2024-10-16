@@ -1,4 +1,4 @@
-const userInput = prompt (`Enter your lucky numbers here` , `7, 13, 25, 99, 100`);
+ const userInput = prompt (`Enter your lucky numbers here` , `7, 13, 25, 99, 100`);
 
 const luckyNum = userInput.split(`,`).map(Number);
 console.log(luckyNum);
@@ -62,3 +62,6 @@ for(let index = 0; index < luckyNum.length; index += 1) {
 }
 
 console.log(oddNumbers)
+
+
+
